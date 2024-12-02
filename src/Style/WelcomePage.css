@@ -1,0 +1,95 @@
+.welcome-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.welcome-container {
+    max-width: 90.95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.welcome-page-left {
+    max-width: 800px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.welcome-page-left p {
+    color: #623e2a;
+    text-align: justify;
+    
+
+}
+.welcome-page-left h1 {
+    
+    font-family: "Playfair Display", serif;
+
+}
+.welcome-page-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-page-right img {
+    height: 500px;
+    width: 600px;
+}
+
+.heading {
+    display: flex;
+    align-items: start;
+    text-align: justify;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+}
+.heading p{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+}
+@media (max-width: 480px) {
+    .welcome-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .welcome-page-right img {
+        height: 275px;
+        width: 277px;
+    }
+    .heading p{
+        font-size: 2rem;
+    }
+    .welcome-page-left p{
+        font-size: 12px;
+    }
+  }
+  
+
+  @media (max-width: 767px) {
+    .welcome-page-right img {
+        height: 373px;
+        width: 387px;
+    }
+    .heading p{
+        font-size: 22px;
+    }
+    .welcome-page-left-p{
+        font-size: 14px;
+    }
+  }
+  
+
+  @media (max-width: 1024px) {
+    
+  }
